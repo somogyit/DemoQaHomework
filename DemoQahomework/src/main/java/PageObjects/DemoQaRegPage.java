@@ -2,6 +2,7 @@ package PageObjects;
 
 import helpers.PageObject;
 import org.apache.commons.lang3.RandomStringUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -63,8 +64,10 @@ public class DemoQaRegPage extends PageObject {
     @FindBy(id = "piereg_passwordStrength")
     private WebElement passwordStrIndicator;
 
-    @FindBy(xpath = "//*[@class='fieldset piereg_submit_button']/input")
+    @FindBy(name = "pie_submit")
     private WebElement submitButton;
+
+
 
     public DemoQaRegPage(WebDriver driver) {
         super(driver);
@@ -156,12 +159,10 @@ public class DemoQaRegPage extends PageObject {
     }
 
     public void clickSubmit() {
-        Boolean passwordStrong = new WebDriverWait(driver, 10).until(ExpectedConditions
-                .textToBePresentInElement(passwordStrIndicator,"Strong"));
-        if (passwordStrong) {
-            this.submitButton.click();
-        }
-
+        submitButton.click();
+        submitButton.click();
+        new WebDriverWait(driver, 10).until(ExpectedConditions
+                .presenceOfElementLocated(By.className("piereg_message")));
     }
 
 }
