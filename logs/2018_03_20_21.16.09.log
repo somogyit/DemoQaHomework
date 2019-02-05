@@ -1,0 +1,41 @@
+2018-03-20 21:16:09 INFO  SetupOfTestNgExample:29 - Running setup before class test methods initialization
+2018-03-20 21:16:10 INFO  SetupOfTestNgExample:52 - Running setup before group negative_test initialization
+2018-03-20 21:16:10 INFO  SetupOfTestNgExample:65 - Running setup before each test method
+2018-03-20 21:16:10 INFO  CustomDriver:20 - Running platform is: windows
+2018-03-20 21:16:10 INFO  CustomDriver:59 - Starting the driver...
+2018-03-20 21:16:10 INFO  CustomDriver:63 - Chromedriver path is: D:\AutomationWorkspace\TestNg\test-ng-basics\training-testng-basics\src\main\resources\drivers\win\chromedriver.exe
+2018-03-20 21:16:13 INFO  CustomDriver:71 - Driver started and it should navigate to: https://github.com/login
+2018-03-20 21:16:15 INFO  LoginPage:42 - Initializing LoginPage...
+2018-03-20 21:16:15 INFO  WaitHelper:95 - Wait for an element visibility with default timeout
+2018-03-20 21:16:15 INFO  LoginPage:50 - Finished LoginPage initialization
+2018-03-20 21:16:15 INFO  ActionHelper:39 - The text invalidUser was sent to the element [[ChromeDriver: chrome on XP (92883e2e6e1c2b2acd28b1377a26d629)] -> id: login_field]
+2018-03-20 21:16:15 INFO  ActionHelper:39 - The text invalidPass was sent to the element [[ChromeDriver: chrome on XP (92883e2e6e1c2b2acd28b1377a26d629)] -> id: password]
+2018-03-20 21:16:15 INFO  ActionHelper:32 - Clicking on the element [[ChromeDriver: chrome on XP (92883e2e6e1c2b2acd28b1377a26d629)] -> name: commit]
+2018-03-20 21:16:16 INFO  LoginPage:73 - Is error message displayed
+2018-03-20 21:16:16 INFO  WaitHelper:42 - Waiting for 1 seconds
+2018-03-20 21:16:17 INFO  SetupOfTestNgExample:71 - Running teardown after each test method
+2018-03-20 21:16:17 INFO  CustomDriver:87 - Closing the driver...
+2018-03-20 21:16:18 INFO  SetupOfTestNgExample:60 - Running teardown after negative_test group run finished
+2018-03-20 21:16:18 INFO  SetupOfTestNgExample:39 - Running setup before group positive_tests initialization
+2018-03-20 21:16:18 INFO  SetupOfTestNgExample:65 - Running setup before each test method
+2018-03-20 21:16:18 INFO  CustomDriver:20 - Running platform is: windows
+2018-03-20 21:16:18 INFO  CustomDriver:59 - Starting the driver...
+2018-03-20 21:16:18 INFO  CustomDriver:63 - Chromedriver path is: D:\AutomationWorkspace\TestNg\test-ng-basics\training-testng-basics\src\main\resources\drivers\win\chromedriver.exe
+2018-03-20 21:16:21 INFO  CustomDriver:71 - Driver started and it should navigate to: https://github.com/login
+2018-03-20 21:16:23 INFO  LoginPage:42 - Initializing LoginPage...
+2018-03-20 21:16:23 INFO  WaitHelper:95 - Wait for an element visibility with default timeout
+2018-03-20 21:16:23 INFO  LoginPage:50 - Finished LoginPage initialization
+2018-03-20 21:16:23 INFO  ActionHelper:39 - The text somogyit was sent to the element [[ChromeDriver: chrome on XP (593632e04bb0a9f9bc6d3a50215f6cc2)] -> id: login_field]
+2018-03-20 21:16:23 INFO  ActionHelper:39 - The text zxdfy148 was sent to the element [[ChromeDriver: chrome on XP (593632e04bb0a9f9bc6d3a50215f6cc2)] -> id: password]
+2018-03-20 21:16:23 INFO  ActionHelper:32 - Clicking on the element [[ChromeDriver: chrome on XP (593632e04bb0a9f9bc6d3a50215f6cc2)] -> name: commit]
+2018-03-20 21:16:24 INFO  UserHeaderMenu:38 - Initializing UserHeaderMenu...
+2018-03-20 21:16:24 INFO  WaitHelper:95 - Wait for an element visibility with default timeout
+2018-03-20 21:16:25 INFO  UserHeaderMenu:46 - Finished UserHeaderMenu initialization
+2018-03-20 21:16:25 INFO  LoginPage:38 - Initializing HomePage...
+2018-03-20 21:16:25 INFO  WaitHelper:95 - Wait for an element visibility with default timeout
+2018-03-20 21:16:25 INFO  LoginPage:44 - Finished HomePage initialization
+2018-03-20 21:16:25 INFO  UserHeaderMenu:55 - Is user links area  displayed in the header menu
+2018-03-20 21:16:25 INFO  SetupOfTestNgExample:71 - Running teardown after each test method
+2018-03-20 21:16:25 INFO  CustomDriver:87 - Closing the driver...
+2018-03-20 21:16:25 INFO  SetupOfTestNgExample:47 - Running teardown after positive_tests group run finished
+2018-03-20 21:16:25 INFO  SetupOfTestNgExample:34 - Running teardown after class test methods run finished

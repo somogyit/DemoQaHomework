@@ -1,0 +1,11 @@
+2019-02-05 20:27:40 INFO  ExceptionTestExample:32 - Running setup before class test methods initialization
+2019-02-05 20:27:40 INFO  ExceptionTestExample:42 - Running setup before each test method
+2019-02-05 20:27:40 INFO  CustomDriver:20 - Running platform is: windows
+2019-02-05 20:27:40 INFO  CustomDriver:59 - Starting the driver...
+2019-02-05 20:27:40 INFO  CustomDriver:63 - Chromedriver path is: D:\AutomationWorkspace\TestNg\test-ng-basics\training-testng-basics\src\main\resources\drivers\win\chromedriver.exe
+2019-02-05 20:27:44 INFO  CustomDriver:71 - Driver started and it should navigate to: https://github.com/login
+2019-02-05 20:27:45 INFO  UserHeaderMenu:38 - Initializing UserHeaderMenu...
+2019-02-05 20:27:45 INFO  WaitHelper:95 - Wait for an element visibility with default timeout
+2019-02-05 20:27:45 INFO  ExceptionTestExample:52 - Running teardown before each test method
+2019-02-05 20:27:45 INFO  CustomDriver:87 - Closing the driver...
+2019-02-05 20:27:46 INFO  ExceptionTestExample:37 - Running teardown after class test methods run finished
